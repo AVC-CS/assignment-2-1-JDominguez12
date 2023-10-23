@@ -5,6 +5,15 @@ def main():
     Use m_perc and f_perc for your results
     ##################################################
     """
+    mnum = int(input("Enter the number of male students "))
+    fnum = int(input("Enter the number of female students "))
+    total = fnum + mnum
+    m_perc = mnum / total * 100
+    f_perc = fnum / total * 100
+    print (f"the number of female students is {f_perc:.2f}")
+    print (f"the number of male students is {m_perc:.2f}")
+
+    
 
     """
     ########################################
